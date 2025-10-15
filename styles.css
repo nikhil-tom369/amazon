@@ -8,7 +8,7 @@ header {
     top: 0;
 }
 .navbar{
-    height: 60px;
+    height: 65px;
     background-color:#0f1111;
     color: white;
     display: flex;
@@ -36,7 +36,7 @@ header {
 
     color:#cccccc;
     font-size: 0.8rem;;
-    margin-left: 15px; 
+    margin-left: 25px; 
 }
 .add-second{
     font-size: 1rem;
@@ -48,10 +48,10 @@ header {
 }
 /** box3 **/
 .nav-search{
+    margin-left: 15px;
     display: flex;
     justify-content:space-evenly ;
-    background-color: orange;
-    width: 620px;
+    width: 910px;
     height: 40px;
     border-radius:4px;
     border : 2px solid transparent;
@@ -83,6 +83,14 @@ header {
 .nav-search:hover{
     border: 2px solid orange;
 }
+.language img{
+    padding-left: 15px;
+    height: 15px;
+}
+.language{
+    font-size: 18px;
+
+}
 /** box4 **/
 span{
     font-size: 0.7rem;
@@ -108,11 +116,15 @@ span{
     align-items: center;
     justify-content: space-evenly;
 }
-.pannel-options p{
-    display: inline;
-    margin-left: 15px;;
+.pannel-options a{
+    justify-content: space-evenly;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px white transparent;
 }
 .pannel-options{
+
     width: 70%;
     font-size: 0.8rem;
 }
@@ -120,10 +132,13 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+.pammel-option a:hover{
+    border-color: white;
+}
 /* hero-section */
 .hero-section {
     background-image: url("hero_image.jpg");
-    height: 380px;
+    height: 310px;
     background-size: cover;
     display: flex;
     justify-content: center;
